@@ -1,0 +1,80 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-image: radial-gradient(#FFE4C4, #ebc290);
+    height: 100vh;
+    text-align: center;
+}
+
+.tela-login {
+    background-color: rgba(156, 21, 0, 0.696);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+}
+
+#username,
+#password {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 40px;
+}               
+
+.poppins-input {
+    font-family: "Poppins", sans-serif;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: darksalmon;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 40px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(248, 174, 147);
+    color: white;
+    border: 3px solid rgb(200, 106, 11);
+}
+
+input:invalid {
+    border: 2px solid rgb(202, 112, 112);
+}
+
+input:valid {
+    border: 2px solid rgb(202, 112, 112);
+}
+
+.choose-1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 40px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.holder {
+    font-family: "Poppins", sans-serif;
+}

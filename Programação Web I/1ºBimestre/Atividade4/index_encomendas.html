@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encomendar Bolos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pães Doces e Bolos</h1>
+        <ul>
+            <li> <a href="index.html" target="_self">Página Principal</a></li>
+            <li><a href="index_encomendas.html" target="_blank">Encomendar Bolo</a></li>
+        </ul>
+    </header>
+    <main>
+        <h2>Encomendar Bolo</h2>
+    
+    <form action="#" method="get">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" maxlength="35" placeholder="Informe o nome" required>
+
+        <label for="ddd">DDD (</label>
+        <input type="number" id="ddd" name="ddd" maxlength="2" placeholder="DDD" required> )
+
+        <label for="telefone">Telefone:</label>
+        <input type="number" id="telefone" name="telefone" maxlength="10" placeholder="Telefone" required><br>
+<table border>
+    <tr>
+        <caption>Bolos</caption>
+        <td><img src="../imagem/images/Bolo01.png" alt="Bolo de Chocolate" width="200"></td>
+        <td><img src="../imagem/images/Bolo02.png" alt="Bolo de Frutas" width="200"></td>
+        <td><img src="../imagem/images/Bolo03.png" alt="Bolo Misto" width="200"></td>
+    </tr>
+    <tr>
+        <th>Chocolate</th>
+        <th>Frutas</th>
+        <th>Misto</th>
+    </tr>
+</table>
+Sabor:</label>
+        <select id="sabor" name="sabor" required>
+            <option value="" disabled selected>Escolha...</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="frutas">Frutas</option>
+            <option value="misto">Misto</option>
+        </select>
+
+        <label for="tipo">Tipo:</label>
+        <input type="radio" id="simples" name="tipo" value="simples" required> <label for="simples">Simples</label>
+        <input type="radio" id="decorado" name="tipo" value="decorado" required> <label for="decorado">Decorado</label><br>
+
+        <label for="tamanho">Tamanho:</label>
+        <input type="number" id="tamanho" name="tamanho" min="1" max="10"> Kg
+
+        <input type="checkbox" name="diet" value="diet">Diet?<br>
+
+        <label for="observacoes">Observações:</label><br>
+        <textarea id="observacoes" name="observacoes" rows="3" cols="80" placeholder="Observações sobre o Pedido"></textarea><br>
+
+        <input type="submit" value="Enviar Pedido">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <script>
+        function focusNome() {
+            document.getElementById("nome").focus();
+        }
+    </script>
+    </main>
+</body>
+
+</html>

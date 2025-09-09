@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    transition: all 0.5s ease;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff9f6;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    place-items: center;
+}
+
+h1 {
+    color: #006b96;
+    margin: 5rem 0rem 0.5rem 0rem;
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #7fb8da;
+    margin-bottom: 2rem;
+}
+
+.calculadora {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 1.25rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 25px #ddddddfe;
+    background-color: #fff;
+}
+
+.tela-display {
+    background-color: #9696962f;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin: 0 0.6rem;
+    height: 5rem;
+    width: auto;
+    max-width: 16.875rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+    font-family: "Pixelify Sans", sans-serif;
+    margin-bottom: 0.625rem;
+}
+
+#display::-webkit-scrollbar {
+    display: block;
+    height: 0.1875rem;
+}
+
+button {
+    height: 3.75rem;
+    width: 3.75rem;
+    border: 0;
+    border-radius: 1.875rem;
+    margin: 0.3125rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: all 200ms ease;
+    font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button#equal {
+    height: 8.125rem;
+}
+
+.tela-display {
+    color: #0a1e23;
+}
+
+button#clear {
+    background-color: #ffd5d8;
+    color: #fc4552;
+}
+
+button.btn-numero {
+    background-color: #E6E6FA;
+    color: #000000;
+}
+
+button.btn-operador {
+    background-color: #FFF0F5;
+    color: #9c8b9c;
+}
+
+button.btn-igual {
+    background-color: #FFE4E1;
+    color: #927875;
+}
+
+#erro-mensagem{
+    margin-top: 1.5rem;
+    color: #fc4552;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+}
+
+@keyframes slideDown{
+    from {
+        transform: translateY(-65px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown2{
+    from {
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-down {
+    animation: slideDown 1.8s ease forwards;
+}
+
+.slide-down2{
+    animation: slideDown2 2s ease forwards;
+}

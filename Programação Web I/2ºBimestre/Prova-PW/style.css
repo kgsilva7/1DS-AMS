@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #616cd9;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5em 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 2em;
+}
+
+section {
+    padding: 2em;
+}
+
+footer {
+    background-color: #6f60ad;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+nav ul {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 6%;
+}
+
+article {
+    width: 30%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+article img {
+    width: 100px;  
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+img.icon {
+    width: 100px; 
+    height: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button.saiba-mais {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px; 
+    background-color: #2f1e8e; 
+    color: white; 
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button.saiba-mais:hover {
+    background-color: #4e5ab7; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none; 
+    padding: 0.5em;
+    transition: color 0.3s, background-color 0.3s; 
+}
+
+nav a:hover {
+    color: #ddd;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:active {
+    color: white; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 5px; 
+}

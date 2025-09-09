@@ -1,0 +1,58 @@
+body {
+    font-family: calibri;
+    text-align: center;
+    margin: 0;
+    background-image: url(Img/textura-branca.jpg);
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36pt;
+    color:rgb(105,105,105);
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.table {
+    border: 2.5px;
+    border-style: double 2px rgb(255,250,250);
+    background-image: url(Img/textura-cinza.jpg);
+    background-size: 3.5px;
+    width: 85%;
+    min-height: 100%;
+    padding: 20px;
+    top: 80px;
+    border-top: 2px dotted rgb(255, 250, 250);
+    border-right: 2px dotted rgb(255, 250, 250);
+    box-sizing: border-box;
+    z-index: 1;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20pt;
+    color: rgb(255, 250, 250);
+    margin: 0;
+}
+
+.source {
+    text-align: right;
+    font-size: 14pt;
+}
+
+.direita{
+    font-family: calibri;
+    display: table-row;
+    color: rgb(105,105,105);
+    font-weight: bold;
+    padding: 10px;
+    align-content: flex-start;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between
+}

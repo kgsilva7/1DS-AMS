@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Par ou Ímpar</title>
+    <link rel="shortcut icon" href="../imagens/javascript-logo.webp" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style2.css">
+</head>
+
+<body>
+
+    <h1>Verificador de Par ou Ímpar</h1>
+    <p>Por favor, informe um número abaixo:</p>
+
+    <div class="container-form">
+        <div class="form">
+            <form id="numberForm" onsubmit="return checkParity();">
+                <div class="input-container">
+                    <label for="number">Número</label>
+                    <input type="number" id="number" name="number" placeholder="Insira um número" required>
+                </div>
+                <button type="submit" class="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="parityModal" class="modal">
+        <div class="modal-content">
+            <p id="parityMessage"></p>
+            <img src="https://i.pinimg.com/originals/d9/6e/5a/d96e5a6378c00a1fca5fcdf3e4dcf02b.gif" alt="Tails flutuando com sua cauda">
+            <button class="close" onclick="closeModal()">Voltar</button>
+        </div>
+    </div>
+
+    <script src="../javascript/script2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+body {
+   background-color: darkblue;
+}
+
+.title {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-decoration: underline dotted red;
+   display: inline-block;
+   color: white;
+   margin-left: 20px;
+
+}
+
+.destaque {
+   color: white;
+   font-size: 18px;
+   padding: 5px;
+   border: 2px solid gray;
+   margin: 20px;
+   text-align: center;
+}

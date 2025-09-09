@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="../imagem/icon.svg" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="slide-down">Olá, usuário!</h1>
+    <p class="slide-down">Faça cálculos com a calculadora abaixo.</p>
+    <div class="calculadora slide-down2">
+        <div class="tela-display">
+            <div id="display"></div>
+        </div>
+        <div class="botoes">
+            <table>
+                <tr>
+                    <td><button class="btn-operador" id="clear">C</button></td>
+                    <td><button class="btn-operador" id="/">&divide;</button></td>
+                    <td><button class="btn-operador" id="*">&times;</button></td>
+                    <td><button class="btn-operador" id="backspace"><</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn-numero" id="7">7</button></td>
+                    <td><button class="btn-numero" id="8">8</button></td>
+                    <td><button class="btn-numero" id="9">9</button></td>
+                    <td><button class="btn-operador" id="-">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn-numero" id="4">4</button></td>
+                    <td><button class="btn-numero" id="5">5</button></td>
+                    <td><button class="btn-numero" id="6">6</button></td>
+                    <td><button class="btn-operador" id="+">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn-numero" id="1">1</button></td>
+                    <td><button class="btn-numero" id="2">2</button></td>
+                    <td><button class="btn-numero" id="3">3</button></td>
+                    <td rowspan="2"><button class="btn-igual" id="equal">=</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn-operador" id="(">(</button></td>
+                    <td><button class="btn-numero" id="0">0</button></td>
+                    <td><button class="btn-operador" id=")">)</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="erro-mensagem"></div>
+</div>
+
+    
+    <script src="../javascript/script.js"></script>
+</body>
+</html>

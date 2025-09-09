@@ -1,0 +1,16 @@
+table {
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    margin-top: 170px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-style:unset;
+}
+
+.t1{
+    font-size: larger;
+    color:red;
+    background-color: rgb(180, 224, 180);
+}

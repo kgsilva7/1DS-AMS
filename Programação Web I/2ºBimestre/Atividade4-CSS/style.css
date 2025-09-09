@@ -1,0 +1,23 @@
+table {
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    margin-top: 170px;
+    font-size: 30px;
+    text-align: center;
+    border-style: groove;
+}
+
+.texto {
+    color: indianred;
+    border-color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+th{
+    border-style: solid;
+}
+
+td{
+    border-style: solid;
+}

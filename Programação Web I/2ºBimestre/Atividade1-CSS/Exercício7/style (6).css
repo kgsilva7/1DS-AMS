@@ -1,0 +1,39 @@
+body{
+   background-color: gray;
+}
+.amarelo{
+   background-color: yellow;
+   font-size: 16px;
+   display: inline-block;
+   padding: 15px;
+   border: 2px solid gray; 
+   width: 50%;
+   margin: 20px;
+}
+
+.azul{
+   align-self: center;
+   background-color:aqua;
+   text-align: left;
+   font-size: 16px;
+   display: flex;
+   padding: 15px;
+   border: 3px black;
+   border-style: dashed;
+   border-width: 2px;
+   border-spacing: 6px; 
+   width: fit-content;
+   margin: 20px;
+   
+}
+
+.verde{
+   background-color: lightgreen;
+   font-size: 16px;
+   display: inline-block;
+   padding: 15px;
+   border-left: 50px;
+   border: 2px solid gray; 
+   margin-inline-end: 20px;
+   margin-left: 30%;  
+}

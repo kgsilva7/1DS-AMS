@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+    border: none;
+    width: 800px;
+    height: 350px;
+    margin: auto;
+    margin-top: 170px;
+    font-size: 23px;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(71, 71, 71);
+}   
+th{
+    color: black;
+    background-color: rgb(127, 184, 223);
+    padding: 8px;
+    border-bottom: none;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #bcd6d1;
+}
