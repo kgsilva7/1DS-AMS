@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 03:24:32 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDItMTM7MjAyNC0wNC0wMzsiMDM6MTA6MzEgIjsyNjE3"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDItMTM7MjAyNC0wNC0wMzsiMDM6MjQ6MzIgIjsxOzI3MzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1" type="Real" array="False" size=""/>
+            <declare name="N2" type="Real" array="False" size=""/>
+            <declare name="N3" type="Real" array="False" size=""/>
+            <declare name="MF" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe a primeira nota:&quot;" newline="True"/>
+            <input variable="N1"/>
+            <output expression="&quot;Informe a segunda nota:&quot;" newline="True"/>
+            <input variable="N2"/>
+            <output expression="&quot;Informe a terceira nota:&quot;" newline="True"/>
+            <input variable="N3"/>
+            <assign variable="MF" expression="((N1*2)+(N2*3)+(N3*5))/10"/>
+            <output expression="&quot;A m&#233;dia final &#233;: &quot; &amp;MF" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

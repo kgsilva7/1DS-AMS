@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-03 02:25:36 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDItMTM7MjAyNC0wNC0wMzsiMDE6MDg6MTYgIjsyNjI1"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDItMTM7MjAyNC0wNC0wMzsiMDI6MjU6MzYgIjsxOzI3MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Produto" type="String" array="False" size=""/>
+            <declare name="Preco" type="Real" array="False" size=""/>
+            <declare name="Qnt" type="Real" array="False" size=""/>
+            <declare name="Uni" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o nome do produto:&quot;" newline="True"/>
+            <input variable="Produto"/>
+            <output expression="&quot;Informe a quantidade do produto:&quot;" newline="True"/>
+            <input variable="Qnt"/>
+            <output expression="&quot;Informe o pre&#231;o unit&#225;rio do produto:&quot;" newline="True"/>
+            <input variable="Uni"/>
+            <assign variable="Preco" expression="Qnt*Uni"/>
+            <output expression="&quot;O nome do produto &#233;: &quot; &amp;Produto" newline="True"/>
+            <output expression="&quot;O pre&#231;o total &#233;: &quot;&amp;Preco" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

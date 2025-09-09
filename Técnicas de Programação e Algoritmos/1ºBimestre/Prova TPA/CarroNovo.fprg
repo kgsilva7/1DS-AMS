@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-04-10 01:57:20 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDItMDg7MjAyNC0wNC0xMDsiMDE6NDI6MjIgIjsyNzk0"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDItMDg7MjAyNC0wNC0xMDsiMDE6NTc6MjAgIjsxOzI5MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CustoConsumidor" type="Real" array="False" size=""/>
+            <declare name="CustoFabrica" type="Real" array="False" size=""/>
+            <declare name="Impostos" type="Real" array="False" size=""/>
+            <declare name="PorcentagemDistr" type="Real" array="False" size=""/>
+            <output expression="(&quot;Informe o custo de f&#225;brica do carro&quot;)" newline="True"/>
+            <input variable="CustoFabrica"/>
+            <assign variable="PorcentagemDistr" expression="CustoFabrica*0.28"/>
+            <assign variable="Impostos" expression="CustoFabrica*0.45"/>
+            <assign variable="CustoConsumidor" expression="CustoFabrica+PorcentagemDistr+Impostos"/>
+            <output expression="&quot;O custo ao consumidor do carro &#233; de: R$&quot;&amp;CustoConsumidor" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
